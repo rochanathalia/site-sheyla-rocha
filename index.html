@@ -1,52 +1,375 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Sheyla Rocha | Terapeuta</title>
-    <meta name="description" content="Terapeuta. Atendimento online e personalizado, para quem quer transformar a vida e curar o coração. ">
+
+    <meta
+        name="description"
+        content="Conheça a terapia online com Sheyla Rocha. Um espaço de escuta, acolhimento e autoconhecimento para cuidar da saúde emocional e dos relacionamentos."
+    >
+
     <meta name="author" content="Nathalia Rocha">
+
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <img src="images/logo7.png" alt="logomarca Sheyla Rocha">
-        </div>
 
-        <nav>
+    <!-- ========================================
+         CABEÇALHO E NAVEGAÇÃO
+    ========================================= -->
+
+    <header>
+
+        <a href="#inicio" class="logo" aria-label="Sheyla Rocha — Página inicial">
+            <img
+                src="images/logo7.png"
+                alt="Sheyla Rocha — Terapeuta"
+            >
+        </a>
+
+        <nav aria-label="Navegação principal">
             <a href="#inicio">Página Inicial</a>
-            <a href="#quem-sou">Quem Sou</a>
-            <a href="#beneficios">Benefícios</a>
-            <a href="#depoimentos">Depoimentos</a>
+            <a href="#como-ajudar">Atendimentos</a>
             <a href="#contato">Contato</a>
-            <a href="https://wa.me/5541996908648" class="btn-agendar" target="_blank">Agende sua sessão</a>
-        </nav>        
+
+            <a
+                href="https://wa.me/5541996908648"
+                class="btn-agendar"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Agende sua sessão
+            </a>
+        </nav>
+
     </header>
 
-    <main>
-        <section id="inicio" class="hero">
-            <div class="hero-texto">
-                <p class="subtitulo">Atendimento Terapêutico 100% Online</p>
-                
-                <h2>O acolhimento que você precisa, no <span>conforto do seu espaço.</span></h2>
-                
-                <p class="descricao">Faça suas sessões de terapia de onde estiver, você não precisa dar conta de tudo sozinho(a)!</p>
-                
-                <a href="https://wa.me/5541996908648" class="btn-agendar" target="_blank">Agendar Minha Primeira Sessão</a>
-            </div>
-            
-            <div class="hero-imagem">
-                <img src="images/perfil1.jpeg" alt="Terapeuta Sheyla Rocha">
 
-                <div class="selo-autoridade">
-                    <span class="icone">✦</span>
-                    <p>Ambiente seguro <br>e acolhedor</p>
-                </div>
+    <main>
+
+        
+    <!-- ========================================
+        HERO — APRESENTAÇÃO PRINCIPAL
+    ========================================= -->
+
+    <section id="inicio" class="hero">
+
+        <!-- Elementos decorativos do fundo -->
+        <div class="hero-fundo-verde" aria-hidden="true"></div>
+        <div class="hero-fundo-terracota" aria-hidden="true"></div>
+        <div class="hero-circulo-decorativo" aria-hidden="true"></div>
+
+        <!-- LADO ESQUERDO: CONTEÚDO -->
+        <div class="hero-texto">
+
+            <p class="subtitulo">
+                Terapia online
+                <span aria-hidden="true">•</span>
+                Atendimento personalizado
+            </p>
+
+            <h1>
+                Você também
+                <br>
+                merece ser
+                <span>cuidado(a).</span>
+            </h1>
+
+            <p class="descricao">
+                Um espaço de escuta, acolhimento e autoconhecimento
+                para cuidar de você e das suas relações.
+            </p>
+
+            <!-- Chamadas para ação -->
+            <div class="botoes-hero">
+
+                <a
+                    href="https://wa.me/5541996908648?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20as%20sess%C3%B5es%20de%20terapia."
+                    class="hero-botao-principal"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <span>Agendar minha sessão</span>
+                    <span class="hero-botao-seta" aria-hidden="true">→</span>
+                </a>
+
+                <a href="#como-ajudar" class="hero-botao-secundario">
+                    Conheça os atendimentos
+                    <span aria-hidden="true">↓</span>
+                </a>
+
             </div>
+
+            <!-- Diferenciais -->
+            <div class="hero-diferenciais">
+
+                <div class="hero-diferencial">
+
+                    <span class="diferencial-icone" aria-hidden="true">✳</span>
+
+                    <div>
+                        <strong>100% online</strong>
+                        <p>De onde estiver</p>
+                    </div>
+
+                </div>
+
+                <div class="hero-diferencial">
+
+                    <span class="diferencial-icone" aria-hidden="true">♡</span>
+
+                    <div>
+                        <strong>Atendimento acolhedor</strong>
+                        <p>No seu tempo</p>
+                    </div>
+
+                </div>
+
+                <div class="hero-diferencial">
+
+                    <span class="diferencial-icone" aria-hidden="true">✧</span>
+
+                    <div>
+                        <strong>Sigilo e respeito</strong>
+                        <p>Em cada encontro</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- LADO DIREITO: FOTO DA TERAPEUTA -->
+        <div class="hero-visual">
+
+            <div class="hero-foto-fundo" aria-hidden="true"></div>
+
+            <div class="hero-imagem">
+
+                <img
+                    src="images/perfil1.jpeg"
+                    alt="Sheyla Rocha, terapeuta"
+                    fetchpriority="high"
+                >
+
+            </div>
+
+            <!-- Selo flutuante -->
+            <div class="selo-autoridade">
+
+                <span class="selo-icone" aria-hidden="true">✳</span>
+
+                <p>
+                    Um espaço seguro
+                    <strong>e acolhedor</strong>
+                </p>
+
+            </div>
+
+            <!-- Detalhe gráfico -->
+            <div class="hero-detalhe-lateral" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+        <!-- ========================================
+             SEÇÃO: COMO POSSO TE AJUDAR?
+        ========================================= -->
+
+        <section id="como-ajudar" class="como-ajudar">
+
+            <!-- Conteúdo principal -->
+
+            <div class="como-ajudar-conteudo">
+
+                <p class="ajuda-etiqueta">
+                    COMO POSSO TE AJUDAR
+                </p>
+
+                <h2>
+                    Um espaço para
+                    <span>cuidar de você.</span>
+                </h2>
+
+                <p class="subtitulo-ajuda">
+                    Cada pessoa tem uma história única. A terapia é um espaço
+                    de escuta, acolhimento e reflexão para compreender suas
+                    experiências e construir novas formas de lidar com a vida.
+                </p>
+
+
+                <!-- Cards de serviços -->
+
+                <div class="servicos-lista">
+
+                    <!-- Terapia individual -->
+
+                    <article class="servicos servico-individual">
+
+                        <div class="servico-topo">
+
+                            <span class="servico-numero">01</span>
+
+                            <span class="servico-detalhe" aria-hidden="true">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <h3>Terapia Individual</h3>
+
+                        <p>
+                            Um espaço dedicado a você, às suas emoções e à sua
+                            história. Com acompanhamento terapêutico, você pode
+                            compreender padrões, desenvolver autoconhecimento
+                            e encontrar recursos para enfrentar os desafios
+                            do dia a dia.
+                        </p>
+
+                        <span class="servico-linha" aria-hidden="true"></span>
+
+                        <a
+                            href="https://wa.me/5541996908648?text=Ol%C3%A1%21%20Tenho%20interesse%20em%20terapia%20individual."
+                            class="servico-botao"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Quero saber mais
+                            <span aria-hidden="true">↗</span>
+                        </a>
+
+                    </article>
+
+
+                    <!-- Terapia de casal -->
+
+                    <article class="servicos servico-casal">
+
+                        <div class="servico-topo">
+
+                            <span class="servico-numero">02</span>
+
+                            <span class="servico-detalhe" aria-hidden="true">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <h3>Terapia de Casal</h3>
+
+                        <p>
+                            Um espaço de diálogo para compreender a dinâmica
+                            do relacionamento, trabalhar conflitos e fortalecer
+                            a comunicação. O processo busca construir acordos
+                            e formas mais saudáveis de se relacionar.
+                        </p>
+
+                        <span class="servico-linha" aria-hidden="true"></span>
+
+                        <a
+                            href="https://wa.me/5541996908648?text=Ol%C3%A1%21%20Tenho%20interesse%20em%20terapia%20de%20casal."
+                            class="servico-botao"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Quero saber mais
+                            <span aria-hidden="true">↗</span>
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+
+            <!-- Área visual da seção -->
+
+            <div class="como-ajudar-visual">
+
+                <div class="imagem-moldura">
+
+                    <img
+                        src="images/sala2.jpeg"
+                        alt="Ambiente acolhedor para atendimento terapêutico"
+                        loading="lazy"
+                    >
+
+                </div>
+
+
+                <!-- Selo decorativo -->
+
+                <div class="selo-acolhimento">
+
+                    <span class="selo-icone" aria-hidden="true">✳</span>
+
+                    <p>Um espaço de</p>
+
+                    <strong>escuta e acolhimento</strong>
+
+                </div>
+
+
+                <!-- Frase de destaque -->
+
+                <div class="frase-acolhimento">
+
+                    <span class="frase-linha" aria-hidden="true"></span>
+
+                    <p>
+                        Você não precisa ter todas as respostas para começar.
+                    </p>
+
+                </div>
+
+            </div>
+
         </section>
+
+
+        <!-- ========================================
+             PRÓXIMA SEÇÃO: CONTATO
+             Adicione id="contato" à seção de contato
+             quando ela for criada.
+        ========================================= -->
+
     </main>
+
+
+    <!-- ========================================
+         BOTÃO FLUTUANTE DO WHATSAPP
+    ========================================= -->
+
+    <a
+        href="https://wa.me/5541996908648"
+        class="whatsapp-button"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Entre em contato pelo WhatsApp"
+    >
+
+        <img
+            src="images/whatsapp.svg"
+            alt=""
+        >
+
+    </a>
+
 </body>
 
 </html>
